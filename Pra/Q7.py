@@ -1,17 +1,17 @@
-Color = ["Violet","Indigo","Blue","Green","Pink","Orange","Black"]
+Color = ["Violet", "Indigo", "Blue", "Green", "Pink", "Orange", "Black"]
 
-    # a
+# a
 print(Color[2:])
 
-    # b
+# b
 Color.remove("Pink")
-Color.insert(4,"Yellow")
+Color.insert(4, "Yellow")
 print(Color)
 
-    # c
+# c
 Color.pop()
 print(Color)
 
-    # d
+# d
 Color.append("Red")
 print(Color)

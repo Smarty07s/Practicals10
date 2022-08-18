@@ -2,14 +2,13 @@ A = set(["a", "b", "c", "d"])
 B = set(["b", "e", "d", "f"])
 C = set(["x", "e", "c", "h"])
 
-    # a
+# a
 A.update(C)
-    # b
+# b
 B.intersection(C)
-    # c
+# c
 A.symmetric_difference(B)
-    # d
+# d
 A.add("m")
 B.add("n")
 C.add("o")
-

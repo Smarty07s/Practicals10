@@ -1,12 +1,12 @@
-Record = (101,"Meenakshi","10","C")
+Record = (101, "Meenakshi", "10", "C")
 
-    # a
-print(Record[1],Record[3])
-    # b
-a,b,c,d=Record
-    # c
+# a
+print(Record[1], Record[3])
+# b
+a, b, c, d = Record
+# c
 Record = list(Record)
-    # d
+# d
 Record.append(80000)
-    # e
+# e
 Record = tuple(Record)
